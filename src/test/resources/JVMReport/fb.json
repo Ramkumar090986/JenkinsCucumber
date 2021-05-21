@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate the login functionality of the facebook",
+        "description": "",
+        "id": "verify-the-login-functionality-of-the-facebook;validate-the-login-functionality-of-the-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3806829200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on facebook login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149479400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the invlaid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_enters_the_invlaid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58779000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter the passowrd",
+            "match": {
+              "location": "StepDefinition.user_should_enter_the_passowrd()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the login functionality of the facebook",
+    "description": "",
+    "id": "verify-the-login-functionality-of-the-facebook",
+    "keyword": "Feature",
+    "uri": "D:/eclipse-workspace/JenkinsFacebook/src/test/resources/Login.feature",
+    "tags": []
+  }
+]
